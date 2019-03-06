@@ -1,0 +1,239 @@
+*{
+  box-sizing: border-box;
+}
+
+header {
+  border-bottom: 2px solid black;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+h1 {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  padding-left:20px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 3.75em;
+}
+
+h2 {
+  color: grey;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 3.25em;
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+article {
+ margin:auto;
+ align-content: flex-start;
+ padding: 20px;
+}
+
+article p{
+  color: grey;
+  font-weight: lighter;
+  padding-bottom: 30px;
+}
+
+main a{
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 12px 10px;
+  font-size: 1em;
+  letter-spacing: .05em;
+}
+
+.topPart{
+  max-width: 90%;
+  margin:auto;
+}
+
+.imgContainer{
+  max-width: 400px;
+  max-height: 250px;
+  margin: auto;
+}
+
+.headerImage {
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+/*---------------Article Area---------------- */
+
+.flex-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.box{
+  background-color: silver;
+  height: 150px;
+  width: 100%;
+  padding: 25px 25px 25px 25px;
+}
+
+/*------------------ Contact Area--------------- */
+
+#contactP {
+  font-size: 2em;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: lighter;
+  padding-top: 40px;
+}
+
+.contactBackground {
+  width: 100%;
+  height: 675px;
+  background-color: silver;
+}
+
+.contact-box {
+  margin: auto;
+  max-width: 40%;
+  max-height: 80%;
+}
+
+form {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+form div{
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.contactBox{
+  height: 30px;
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  height: 250px;
+}
+
+input[type="submit"] {
+  font-size: .9em;
+  letter-spacing: .05em;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  min-width: 15%;
+  margin-top: 20px;
+}
+
+label {
+  float: left;
+  color: white;
+  font-weight: lighter;
+  letter-spacing: .05em;
+}
+
+span{
+  float: right;
+  color: red;
+  font-style: italic;
+  font-size: .75em;
+  font-weight: lighter;
+  letter-spacing: .05em;
+  margin-top: 4px;
+}
+
+.bottomPart{
+  max-width: 90%;
+  margin:auto;
+  padding-bottom: 100px;
+}
+
+h3 p {
+  font-weight: lighter;
+  letter-spacing: .05em;
+  margin: auto;
+
+}
+
+p a:link {
+  color: red;
+  text-decoration: none;
+}
+p a:visited {
+  color:red;
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+footer p{
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+  word-spacing: .05em;
+}
+
+/*----------------media queries----------- */
+
+@media screen and (max-width:720px){
+
+.flex-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1, h3 {
+    text-align: center;
+    margin: auto;
+    font-size:2.50em;
+    padding: 20px 25px 5px 25px;
+}
+
+
+.headingOne {
+  display: flex;
+  align-items: center;
+}
+
+form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: justify;
+  margin:auto;
+}
+
+input[type="submit"] {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  max-width: 25%;
+  margin-top: 20px;
+}
+
+}
