@@ -160,6 +160,7 @@ span{
   letter-spacing: .05em;
   margin-top: 4px;
 }
+/* ----End contact area---- */
 
 .bottomPart{
   max-width: 90%;
@@ -237,6 +238,11 @@ input[type="submit"] {
   padding: 10px;
   max-width: 25%;
   margin-top: 20px;
+}
+
+#names, li {
+  display: block;
+  text-align: center;
 }
 
 }
