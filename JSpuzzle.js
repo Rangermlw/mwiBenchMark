@@ -12,9 +12,7 @@ var listOne = {
     tylerViles : 'Tyler Viles'
   };
 
-function puzzle (x, y) {
-  return Object.assign({}, x, y);
-}
+const puzzle = (x, y) => Object.assign({}, x, y);
 
 var merged = puzzle(listOne, listTwo);
 
